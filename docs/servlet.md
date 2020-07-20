@@ -81,7 +81,6 @@ SpringMVC框架核心，自定义Servlet，接收并处理请求，包含以下�
 1. 调用HandlerMapping，找到具体的处理器对象即拦截器，即Controller和Method
 2. 调用HandlerAdapter，通过反射的方式执行Controller.Method并返回ModelAndView对象
 3. 调用ViewReslover(视图解析器)解析ModelAndView对象，并返回view
-4. 根据View进行渲染视图(模型数据填充至视图)
-5. 返回请求
+4. 根据View进行渲染视图(模型数据填充至视图)，返回请求
 
 ![dispatcherservlet](E:\note\docs\images\dispatcherservlet.png)

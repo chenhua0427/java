@@ -83,4 +83,4 @@ SpringMVC框架核心，自定义Servlet，接收并处理请求，包含以下�
 3. 调用ViewReslover(视图解析器)解析ModelAndView对象，并返回view
 4. 根据View进行渲染视图(模型数据填充至视图)，返回请求
 
-![dispatcherservlet](E:\note\docs\images\dispatcherservlet.png)
+![dispatcherservlet](/images/dispatcherservlet.png)

@@ -241,7 +241,7 @@ Dubbo的传输层模块抽象层数较多，以下列举关键部分。
 
 ##### Consummer总结
 
-![image](https://github.com/chenhua0427/java/tree/master/docs/images/dubbo-rpc1.jpg)
+![image](https://github.com/walle710/java/blob/master/docs/image/dubbo-rpc1.jpg)
 
 <u>Invoker</u>-调用动作封装类，提供invoke(Invocation invocation)方法，发起一次远程调用。Invocation 封装了真实调用的方法Method和参数。
 

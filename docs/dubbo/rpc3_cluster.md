@@ -166,6 +166,6 @@ Dubbo默认提供两种实现，一种是基于条件表达式的路由规则设
 
 #### 总结
 
-![](https://github.com/chenhua0427/java/tree/master/docs/images/dubbo-rpc3.jpg)
+![image](https://github.com/chenhua0427/java/tree/master/docs/images/dubbo-rpc3.jpg)
 
 当服务编程一个集群之后，情况复杂了很多，要让用户无感知的调用集群，需要将集群调用做成抽象，并对接注册中心。这也是Dubbo再Proxy之后又抽象出Invoker的原因。针对集群调用，内部实现了不同的容错策略，同时围绕Invoker还扩容了其它功能。

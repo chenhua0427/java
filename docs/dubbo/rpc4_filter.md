@@ -105,7 +105,7 @@ private static <T> Invoker<T> buildInvokerChain(final Invoker<T> invoker, String
 
 Dubbo直接将Filter封装成一个Invoker，然后将多个Inovker连接在一起。对于Consumer端的代理来说，从protocol获取到的一个Inovker，调用invok()方法，实际上是调用的这个链条的header，然后header再把请求传递下去。这样就把FIlter的整个逻辑对Proxy透明化。
 
-![](https://github.com/chenhua0427/java/tree/master/docs/images/dubbo-rpc4.jpg)
+![image](https://github.com/chenhua0427/java/tree/master/docs/images/dubbo-rpc4.jpg)
 
 ##### Filter列表
 

@@ -106,7 +106,7 @@ Provider要提供服务，必须在某一端口上监听来接收数据，所以
   }
   ~~~
 
-![](https://github.com/chenhua0427/java/tree/master/docs/images/dubbo-rpc2.jpg)
+![image](https://github.com/chenhua0427/java/tree/master/docs/images/dubbo-rpc2.jpg)
 
 <u>Exchanger</u>-开启一个服务端Server，`ExchangeServer bind(URL url, ExchangeHandler handler) throws RemotingException;` ExchangeServer接口包含获取和客户端的Channel的方法。
 
